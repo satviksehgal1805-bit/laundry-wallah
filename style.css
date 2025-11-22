@@ -1,0 +1,85 @@
+/* *{
+    background-color: antiquewhite;
+} */
+.left{
+    margin-right: 50vh;
+}
+/* .container:left{
+    margin-right: 5vh;
+} */
+.container{
+    /* background-color: grey; */
+    display:flex;
+    color: black;
+    gap:5vh;
+    padding:5vh;
+}
+.left{
+    width: 3vh;
+    height: 5vh;
+    border-radius: 50%;
+    /* border:1vh solid black; */
+}
+.centre{
+    /* display:inline-block; */
+    gap: vh;
+    padding:vh;
+    /* bordervh solid black */
+    align-items: center;
+    justify-content: center ;
+}
+.centre:hover{
+    color: red;
+}
+.right{
+
+    float:right;    
+    margin-left:30vw;
+    /* padding:vh; */
+    border-radius: 10%;
+    width:11vh;
+    height:5vh;
+    background-color: lightblue;
+    color: blue;
+}
+.right:hover{
+    background-color: transparent;
+}
+.both{
+    /* align-items: center; */
+    justify-content: center;
+}
+.main{
+    align-items: center;
+    margin-left:40vh;
+    width: 150vh;
+    /* font-size: 1.5rem; */
+}
+.high,.color{
+    font-size: 3rem;
+    font-weight: bold;
+}
+p{
+    font-size: 1.4rem;
+    color:grey;
+}
+.color{
+    color: blue;
+}
+.both{
+    display: flex;
+}
+button{
+    margin-left:155vh;
+    margin-top: 5vh;
+    background-color:deepskyblue;
+    color: white;
+    height:8vh;
+    width:30vh;
+    border-radius: 15%;
+    justify-content: center;
+}
+.width{
+    width: 180vh;
+    /* margin-right: 100vh; */
+}
